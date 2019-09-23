@@ -23,11 +23,10 @@ function start(_port) {
       console.log(stderr);
       console.log("------");
 
-      if (!!stderr) {
-        res.status(500).send(stderr);
-      } else {
-        res.status(200).send(stdout);
-      }
+      res.status(200).send(`
+          ${stdout}
+          ${stderr}
+        `);
     } catch (error) {
       console.error(error);
       res.status(500).send(error);

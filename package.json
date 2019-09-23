@@ -1,0 +1,33 @@
+{
+  "name": "ydeploy",
+  "version": "0.0.5",
+  "description": "a tool for deploy",
+  "main": "index.js",
+  "scripts": {
+
+  },
+  "bin": {
+    "ydeploy": "bin/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/youpinyao/ydeploy.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/youpinyao/ydeploy/issues"
+  },
+  "homepage": "https://github.com/youpinyao/ydeploy#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "commander": "^3.0.1",
+    "cross-spawn": "^7.0.0",
+    "express": "^4.17.1",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.2"
+  }
+}
